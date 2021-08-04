@@ -11,6 +11,11 @@ origins = [
     "http://localhost",
     "http://localhost:8080",
     "http://localhost:3000/"
+    "https://gsp-app-form.netlify.app"
+    "https://gsp-app-form.netlify.app/#"
+    "https://gsp-app-form.netlify.app/#/"
+
+
 ]
 
 app.add_middleware(
