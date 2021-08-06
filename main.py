@@ -36,7 +36,7 @@ async def root():
 async def addAppForm(appForm: AppForm):
     db = JsonDB()
     db.insert(appForm.dict())
-    return {"status": "202", "statusText": "Registrado con éxito"}
+    return {"status": "201", "statusText": "Registrado con éxito"}
 
 
 @app.get("/forms")
